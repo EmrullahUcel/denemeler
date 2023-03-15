@@ -13,11 +13,11 @@ checkBox.onclick = function () {
     console.log(randomNumb);
     console.log(parseInt(display.value))
     if ((parseInt(display.value)) === randomNumb) {
-        display2.value = ("Tebrikler Doğru sayı :" + randomNumb + " idi");
+        display2.value = "Tebrikler Doğru sayı :" + randomNumb + " idi";
         console.log("Tebrikler");
         
     } else
-        display2.value = ("Tekrar deneyin Sayı : " + randomNumb + " idi");
+        display2.value = "Tekrar deneyin Sayı : " + randomNumb + " idi";
         console.log("Tekrar deneyin");
 };
 
