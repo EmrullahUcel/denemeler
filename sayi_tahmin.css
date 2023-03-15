@@ -1,0 +1,35 @@
+#display{
+    text-align:center ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(170, 230, 227);
+}
+#display2{
+    text-align:center ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(170, 230, 227);
+}
+.container{
+    margin: auto;
+    width: 210px;
+    height: 400px;
+    background-color:white;
+    text-align: center;
+    border: 3px solid black;
+}   
+
+.keys{
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+    background-color: black;
+}
+
+.btn{
+    grid-area: 4/2/4/4;
+    width: 100%;
+    background-color: red;
+}
