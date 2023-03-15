@@ -4,8 +4,8 @@ var key = document.getElementsByClassName('key')
 var display2 = document.getElementById('display2')
 
 function onClickNumber(number){
-    onClickNumber = number;
-    display.value = display.value + number;
+    
+    display.value = number;
 };
 
 checkBox.onclick = function () {
