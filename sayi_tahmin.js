@@ -11,7 +11,7 @@ function onClickNumber(number) {
 };
 
 checkBox.onclick = function () {
-    var randomNumb = Math.floor(Math.random()* 11);
+    var randomNumb = Math.floor(Math.random()* 10);
     console.log(randomNumb);
 
     if ((parseInt(display.value)) === randomNumb) {
