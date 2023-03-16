@@ -1,35 +1,64 @@
+.container{
+    margin: auto;
+    width: 210px;
+    height: 400px;
+    background-color:lightseagreen;
+    text-align: center;
+    border: 3px solid cyan;
+    border-radius: 15px;
+}   
 #display{
     text-align:center ;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
     background-color: rgb(170, 230, 227);
 }
 #display2{
     text-align:center ;
-    margin-top: 10px;
     margin-bottom: 5px;
     background-color: rgb(170, 230, 227);
 }
-.container{
-    margin: auto;
-    width: 210px;
-    height: 400px;
-    background-color:white;
-    text-align: center;
-    border: 3px solid black;
-}   
+#display3{
+    text-align:center ;
+    margin-bottom: 5px;
+    background-color: rgb(170, 230, 227);
+}
+.ekran{
+    width: 90%;
+    border: solid 2px beige;
+}
 
 .keys{
-    height: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 285px;
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
     padding: 5px;
-    background-color: black;
+    background-color: lightseagreen;
+}
+.key{
+    background-color: rgb(105, 248, 224);
+    border: solid 1px cyan ;
+    border-radius: 10px;
+}
+
+.key:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: greenyellow;
+
 }
 
 .btn{
     grid-area: 4/2/4/4;
     width: 100%;
-    background-color: red;
+    background-color:cyan;
+    border: solid 1px cyan;
+    border-radius: 10px;
 }
+.btn:hover{
+    cursor:pointer;
+    transition: 0.3s;
+    background-color: greenyellow;
+}
+

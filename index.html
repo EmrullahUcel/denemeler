@@ -11,8 +11,11 @@
 
 <body>
     <div class="container">
+        <div class="displays">
         <input class="ekran" id="display" type="number" maxlength="1" placeholder="0 ile 10 arası sayı giriniz...">
         <input class="ekran" id="display2" type="text" placeholder="BOL ŞANSLAR">
+        <input class="ekran" id="display3" type="text" placeholder="0">
+        </div>
         <div class="keys">
             <button class="key" onclick="onClickNumber('9')">9</button>
             <button class="key" onclick="onClickNumber('8')">8</button>
@@ -26,10 +29,10 @@
             <button class="key" onclick="onClickNumber('0')">0</button>
             <button class="btn" id="checkBox">kontrol et</button>
         </div>
-        <H1>NASIL OYNANIR ?</H1>
-        <p> 1 - Seçtiğiniz rakama tuşlayıp "Kontrol et"tuşuna basın </p>
-        <p> 2 - Seçeceğiniz rakam 10 dan küçük olmalı (10 olamaz)</p>
-        <p> 3 - Bol Şanslar !!!</p>
+        
+        <H1>Puanlama</H1>
+        <p> Doğru tahminler 10 puan <br> Yanlış tahminler -1 puan</p>
+       
     </div>
 
     <script src="sayi_tahmin.js"></script>
