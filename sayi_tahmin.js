@@ -4,16 +4,12 @@ var key = document.getElementsByClassName('key');
 var display2 = document.getElementById('display2');
 var display3 = document.getElementById('display3');
 let score = 0;
-
-
 function onClickNumber(number) {
     display.value = number;
 };
-
 checkBox.onclick = function () {
     var randomNumb = Math.floor(Math.random()* 10);
     console.log(randomNumb);
-
     if ((parseInt(display.value)) === randomNumb) {
         display2.value = "Tebrikler Doğru sayı :" + randomNumb + " idi";
         console.log("Tebrikler");
